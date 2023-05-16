@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>Home Page</title>
+  <style>
+    .green-row {
+      background-color: rgb(159, 240, 196);
+    }
+
+    .landscape-photo {
+      background-image: url('ecm.png');
+      background-size: cover;
+      background-position: center;
+      height: 250px;
+      width: 1400px;
+      margin-top: 2rem;
+    }
+
+    .category-content {
+      background-color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="green-row py-4">
+    <div class="container mx-auto flex justify-between">
+      <a href="homepage.html" class="text-black font-bold py-2 px-2" id="home-button">Home</a>
+      <a href="category.html" class="text-black py-2 px-2" id="category-button">Category</a>
+      <a href="customer_care.html" class="text-black py-2 px-2">Customer Care</a>
+      <a href="track_order.html" class="text-black py-2 px-2">Track Order</a>
+      <a href="user.html" class="text-black py-2 px-2">User</a>
+    </div>
+  </div>
+
+  <div class="landscape-photo"></div>
+<!--
+  <div id="category-content" class="hidden">
+    <h2 class="text-2xl"></h2>
+    <ul CLASS="justify">
+      <li>MALE</li>
+      <li>FEMALE</li>
+      <li>KIDS</li>
+      <li>PET</li>
+      <li>BIRTHDAY</li>
+      <li>WEDDING</li>
+      <li>ANNIVERSARY GIFTS</li>
+      <li>RELIGIOUS GIFTS</li>
+      <li>THANK YOU GIFTS</li>
+      <li>UNIQUE GIFTS</li>
+    </ul>
+  </div>
+
+  <script>
+    const homeButton = document.getElementById('home-button');
+    const categoryButton = document.getElementById('category-button');
+    const categoryContent = document.getElementById('category-content');
+
+    homeButton.addEventListener('click', function() {
+      window.scrollTo(0, 0);
+    });
+
+    categoryButton.addEventListener('click', function() {
+      categoryContent.classList.toggle('hidden');
+    });
+    
+  </script>
+-->
+</body>
+
+</html>

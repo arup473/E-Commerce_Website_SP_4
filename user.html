@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+  <title>Home Page</title>
+  <style>
+    .green-row {
+      background-color: rgb(159, 240, 196);
+    }
+
+    .landscape-photo {
+      background-image: url('ecm.png');
+      background-size: cover;
+      background-position: center;
+      height: 210px;
+      width: 1250px;
+      margin-top: 2rem;
+    }
+
+    .category-content {
+      background-color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="green-row py-4">
+    <div class="container mx-auto flex justify-between">
+        <a href="homepage.html" class="text-black py-2 px-2" id="home-button">Home</a>
+        <a href="category.html" class="text-black py-2 px-2" id="category-button">Category</a>
+        <a href="customer_care.html" class="text-black py-2 px-2">Customer Care</a>
+        <a href="track_order.html" class="text-black py-2 px-2">Track Order</a>
+        <a href="user.html" class="text-black font-bold py-2 px-2">User</a>
+    </div>
+  </div>
+  <div class="bg-gray-100">
+    <div class="flex flex-col justify-center items-center h-screen">
+      <h1 class="text-2xl font-bold mb-4"> </h1>
+      <form class="bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div class="mb-4">
+          <label class="block text-gray-700   mb-2" for="username">
+            User Name or Phone Number
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="username" type="text" placeholder="Enter your username">
+        </div>
+        <div class="mb-4">
+          <label class="block text-gray-700   mb-2" for="password">
+            Password
+          </label>
+          <input class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" id="password" type="password" placeholder="Enter your password">
+        </div>
+        <div class="flex items-center justify-between">
+          <button class="bg-blue-500 hover:bg-blue-700 text-white   py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="button">
+            Sign In
+          </button>
+          <a class="inline-block align-baseline   text-sm text-blue-500 hover:text-blue-800" href="#">
+            Forgot Password?
+          </a>
+        </div>
+      </form>
+    </div>
+</div>
+</body>
+
+</html>
